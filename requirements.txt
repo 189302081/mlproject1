@@ -6,4 +6,5 @@ catboost
 xgboost
 joblib
 threadpoolctl
+pickle
 #-e .
