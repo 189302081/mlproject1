@@ -29,6 +29,7 @@ class ModelTrainerConfig:
 class ModelTrainer:
     def __init__(self):
         self.model_trainer_config=ModelTrainerConfig()
+        print("Got the model.pkl path")
 
 
     def initiate_model_trainer(self,train_array,test_array):
