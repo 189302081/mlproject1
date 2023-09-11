@@ -5,9 +5,9 @@ from sklearn.preprocessing import StandardScaler
 from src.pipeline.predict_pipeline import CustomData,PredictPipeline
 from src.utils import load_object
 
-application=Flask(__name__)
+app=Flask(__name__)
 
-app=application
+#app=application
 
 ## Route for a home page
 
